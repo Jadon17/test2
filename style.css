@@ -1,0 +1,73 @@
+body {
+    background-size: cover;
+}
+
+button {
+    font-family: 'Comic Sans MS';
+}
+
+h1 {
+    background-color: aqua;
+    color: aliceblue;
+    font-family: 'Lobster Two';
+    font-size: 25px !important;
+    margin:0px;
+}
+
+h3 {
+    font-size: 20px;
+    background-color: cadetblue;
+    height: 5%;
+    font-family: 'Bookman Old Style';
+    border-radius: 72px;
+    line-height: 1.5;
+}
+
+.footer {
+    bottom: 0;
+    width: 100%;
+    line-height: 2;
+    color: black;
+    background-color: aqua;
+    position: fixed;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Bebas Neue';
+}
+
+canvas {
+    border: 7px solid black;
+    margin-top: 120px;
+    background-color: #fff;
+    box-shadow: 18px 20px 20px;
+    animation-name: animation;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+   }
+
+@keyframes animation{
+    0% {
+        border-color: violet;
+    }
+    14.2857143%{
+        border-color: indigo;
+    }
+    28.5714286%{
+        border-color: blue;
+    }
+    42.8571429%{
+        border-color: green;
+    }
+    57.1428572%{
+        border-color: yellow;
+    }
+    71.4285715%{
+        border-color: orange;
+    }
+    85.7142858%{
+        border-color: red;
+    }
+    100%{
+        border-color: pink;
+    }
+}
